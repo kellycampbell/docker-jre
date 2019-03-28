@@ -1,5 +1,5 @@
-FROM alpine:3.8
-MAINTAINER pjpires@gmail.com
+FROM alpine:3.9
+MAINTAINER kellyc@stratisiot.com
 
 ENV JAVA_HOME=/usr/lib/jvm/default-jvm/jre
 
