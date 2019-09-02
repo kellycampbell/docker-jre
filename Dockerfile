@@ -1,7 +1,7 @@
-FROM alpine:3.9.2
+FROM alpine:3.10.1
 MAINTAINER kellyc@stratisiot.com
 
-ENV JDK_NAME=zulu11.29.11-ca-jdk11.0.2-linux_musl_x64
+ENV JDK_NAME=zulu11.33.15-ca-jdk11.0.4-linux_musl_x64
 ENV JAVA_HOME=/usr/lib/jvm/default-jvm
 
 # Still install jdk8 to get all the libs and such it depends on
